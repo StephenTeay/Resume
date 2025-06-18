@@ -696,7 +696,7 @@ with tab2:
             Use appropriate Markdown:
             - **Name:** Start with `# {var_for_ai['name']}`.
             - **Contact Info Line (IMPORTANT):** Immediately after the name, output this specific HTML structure for contact info:
-                `<div class="contact-info-line">{var_for_ai['mail']} | <a href="{var_for_ai['linkedin']}">LinkedIn</a> {var_for_ai['portfolio_link_website']}  | <a href="{var_for_ai['portfolio_link_website']}">Portfolio</a> | {var_for_ai['location']}</div>`
+                `<div class="contact-info-line">{var_for_ai['mail']} | <a href="{var_for_ai['linkedin']}">LinkedIn</a>| <a href="{var_for_ai['portfolio_link_website']}">Portfolio</a> | {var_for_ai['location']}</div>`
                 Ensure all user data is directly injected into this HTML string, and the `<a>` tags are correct.
             - **Major Sections:** Use `##` for sections like "Summary", "Skills", "Experience", "Education", "Certifications", "Professional Affiliations".
             - **Sub-headings:** Use `###` for job titles/degrees.
