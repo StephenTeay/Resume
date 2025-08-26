@@ -13,9 +13,9 @@ st.title("AI-Powered Job-Winning Resume Builder")
 
 # --- Global Configuration and Session State Initialization ---
 # Gemini API URL
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="
 # API key will be automatically provided by the Canvas environment, so we leave it empty here
-API_KEY = "AIzaSyAd4rZ6ZkQTwtZe3NQicywOyg5vUEcjw30" 
+API_KEY = "AIzaSyDerZmaIHVFmMwLB1ETWGUT4DV9CPuy8h0" 
 
 # Initialize session state variables for all dynamic entries and new features
 if 'job_entries' not in st.session_state:
@@ -871,6 +871,7 @@ with tab2:
             mime="text/plain"
         ):
             st.toast("Cover Letter Downloaded!", icon="📩")
+
 
 
 
